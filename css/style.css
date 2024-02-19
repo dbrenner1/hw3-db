@@ -144,7 +144,11 @@ a:hover {
   grid-template-columns: 1fr 5fr 1fr;
   grid-row-gap: 15px;
   text-align:center;
+
 }
+
+.container div{
+  overflow:hidden}
 
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
@@ -172,6 +176,7 @@ margin: auto;}
   grid-column: 2/3;
   grid-row-start: 5;
   margin: auto;
+
 }
 
 .about-image {grid-column: 1/4;
